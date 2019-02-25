@@ -11,7 +11,7 @@
 ## Tutorial
 
 ```bash
-$ export GITHUB_USERNAME=<имя_пользователя>
+$ export GITHUB_USERNAME=<porcorosso56>
 $ export GIST_TOKEN=<сохраненный_токен>
 $ alias edit=<nano|vi|vim|subl>
 ```
@@ -59,7 +59,7 @@ $ ls node/bin
 ```ShellSession
 $ cat > ~/.gistup.json <<EOF
 {
-  "token": "${GIST_TOKEN}"
+  "token": "${GIST_TOKEN}"  
 }
 EOF
 ```
