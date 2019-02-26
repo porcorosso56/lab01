@@ -20,8 +20,12 @@ $ alias edit=<nano|vi|vim|subl>
 $ mkdir -p ${GITHUB_USERNAME}/workspace
 $ cd ${GITHUB_USERNAME}/workspace
 $ pwd
+/home/Asus/porcorsso56/workspace
+
 $ cd ..
 $ pwd
+/home/Asus
+
 ```
 
 ```ShellSession
@@ -44,6 +48,8 @@ $ ls node/bin
 $ echo ${PATH}
 $ export PATH=${PATH}:`pwd`/node/bin
 $ echo ${PATH}
+/home/Asus/bin:/usr/local/bin:/home/Asus/.local/bin:/usr/local/bin:/usr/bin:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/CMake/bin:/cygdrive/c/Users/Asus/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/Asus/.babun:/cygdrive/c/Users/Asus/AppData/Local/GitHubCLI/bin:/cygdrive/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin:/cygdrive/c/Program Files/Sublime Text 3
+
 $ mkdir scripts
 $ cat > scripts/activate<<EOF
 export PATH=\${PATH}:`pwd`/node/bin
