@@ -130,7 +130,7 @@ $ gistup -m "lab${LAB_NUMBER}" # enter: yes↵
 
 1. Скачайте библиотеку *boost* с помощью утилиты **wget**. Адрес для скачивания `https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz`.
 ```bash
-$ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz #скачиваем исходники
+$ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz 
 ```
 2. Разархивируйте скачанный файл в директорию `~/boost_1_69_0`
 ```bash
@@ -180,7 +180,7 @@ $ grep -lr 'boost::asio' .
 ```
 8. Скомпилирутйе *boost*. Можно воспользоваться [инструкцией](https://www.boost.org/doc/libs/1_61_0/more/getting_started/unix-variants.html#or-build-custom-binaries) или [ссылкой](https://codeyarns.com/2017/01/24/how-to-build-boost-on-linux/).
 ```bash
-$ ./bootstrap.sh --prefix=boost_output # prefix указывает в какой папке будут скомпилированы библиотеки и include файлы
+$ ./bootstrap.sh --prefix=boost_output
 $ ./b2 install
 ```
 9. Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию `~/boost-libs`.
