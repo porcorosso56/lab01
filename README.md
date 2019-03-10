@@ -38,7 +38,7 @@ $ cd workspace
 ```ShellSession
 # Debian
 $ wget https://nodejs.org/dist/v6.11.5/node-v6.11.5-win-x64.zip
-$ tar -xf node-v6.11.5-win-x64.zip
+$ unzip -xf node-v6.11.5-win-x64.zip
 $ rm -rf node-v6.11.5-win-x64.zip
 $ mv node-v6.11.5-win-x64.zipnode
 ```
