@@ -134,9 +134,9 @@ $ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.ta
 ```
 2. Разархивируйте скачанный файл в директорию `~/boost_1_69_0`
 ```bash
-$ tar -xf boost_1_69_0.tar.gz # распаковываем архив
-$ rm -rf boost_1_69_0.tar.gz # удаляем архив
-$ cd boost_1_69_0 # переходим в каталог с *boost*
+$ tar -xf boost_1_69_0.tar.gz
+$ rm -rf boost_1_69_0.tar.gz
+$ cd boost_1_69_0
 ```
 3. Подсчитайте количество файлов в директории `~/boost_1_69_0` **не включая** вложенные директории.
 ```bash
