@@ -15,7 +15,7 @@ $ export GITHUB_USERNAME=<porcorosso56>
 $ export GIST_TOKEN=<*******************>
 $ alias edit=<nano|vi|vim|subl>
 ```
-
+Создание рабочей директории
 ```ShellSession
 $ mkdir -p ${GITHUB_USERNAME}/workspace
 $ cd ${GITHUB_USERNAME}/workspace
@@ -27,14 +27,14 @@ $ pwd
 /home/Asus
 
 ```
-
+Создание каталогов, внутри рабочей директории
 ```ShellSession
 $ mkdir -p workspace/tasks/
 $ mkdir -p workspace/projects/
 $ mkdir -p workspace/reports/
 $ cd workspace
 ```
-
+Устанавливаем *nodejs* в нашу рабочую директорию
 ```ShellSession
 # Debian
 $ wget https://nodejs.org/dist/v6.11.5/node-v6.11.5-win-x64.zip
@@ -42,7 +42,7 @@ $ unzip -xf node-v6.11.5-win-x64.zip
 $ rm -rf node-v6.11.5-win-x64.zip
 $ mv node-v6.11.5-win-x64.zipnode
 ```
-
+Смотрим содержимое каталога **node/bin**, добавляем директорию в переменную `PATH`
 ```ShellSession
 $ ls node/bin
 $ echo ${PATH}
@@ -56,12 +56,12 @@ export PATH=\${PATH}:`pwd`/node/bin
 EOF
 $ source scripts/activate
 ```
-
+Устанавливаем утилиту **gistup**
 ```ShellSession
 $ npm install -g gistup
 $ ls node/bin
 ```
-
+Создаем файл `.gistup.json`, с `gist token`
 ```ShellSession
 $ cat > ~/.gistup.json <<EOF
 {
