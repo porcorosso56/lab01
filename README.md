@@ -13,7 +13,7 @@
 ```bash
 $ export GITHUB_USERNAME=porcorosso56
 $ export GIST_TOKEN=*******************
-$ alias edit=<nano|vi|vim|subl>
+$ alias edit=nano
 ```
 Создание рабочей директории
 ```ShellSession
