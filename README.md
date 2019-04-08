@@ -11,8 +11,8 @@
 ## Tutorial
 
 ```bash
-$ export GITHUB_USERNAME=<porcorosso56>
-$ export GIST_TOKEN=<*******************>
+$ export GITHUB_USERNAME=porcorosso56
+$ export GIST_TOKEN=*******************
 $ alias edit=<nano|vi|vim|subl>
 ```
 Создание рабочей директории
